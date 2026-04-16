@@ -4,7 +4,7 @@ import { GoPlus } from 'react-icons/go';
 const Hero = () => {
     return (
 
-      
+
 
         <div className='bg-base-200 py-20'>
             <div className=" container mx-auto text-center">
@@ -17,36 +17,41 @@ const Hero = () => {
                     <button className="btn bg-[#244D3F] text-white"> <GoPlus /> Add a Friend</button>
                 </div>
             </div>
-         <div className='w-6xl mx-auto grid grid-cols-4 gap-6 mt-10'>
-            <div className="card bg-white shadow-sm">
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">10</h2>
-                    <p>Total Friends</p>
+            <div className='container mx-auto grid grid-cols-4 gap-6 mt-10'>
+                <div className="card bg-white shadow-sm">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">10</h2>
+                        <p>Total Friends</p>
+                    </div>
+                </div>
+                <div className="card bg-white shadow-sm">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">5</h2>
+                        <p>On Track</p>
+                    </div>
+                </div>
+                <div className="card bg-white shadow-sm">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">10</h2>
+                        <p>Need Attention</p>
+                    </div>
+                </div>
+                <div className="card bg-white shadow-sm">
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">10</h2>
+                        <p>Interactions This Month</p>
+                    </div>
                 </div>
             </div>
-            <div className="card bg-white shadow-sm">
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">5</h2>
-                    <p>On Track</p>
-                </div>
+
+
+            <div className="flex container mx-auto flex-col pt-10">
+                <div className="divider text-black"></div>
             </div>
-            <div className="card bg-white shadow-sm">
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">10</h2>
-                    <p>Need Attention</p>
-                </div>
-            </div>
-            <div className="card bg-white shadow-sm">
-                <div className="card-body items-center text-center">
-                    <h2 className="card-title">10</h2>
-                    <p>Interactions This Month</p>
-                </div>
-            </div>
-        </div>
 
         </div>
 
-            
+
     );
 };
 

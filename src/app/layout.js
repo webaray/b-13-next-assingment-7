@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "B13 | Next Application",
+  title: "B13-Home | Next Application",
   description: "This application made by going through assingment",
 };
 
